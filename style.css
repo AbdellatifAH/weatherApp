@@ -8,3 +8,29 @@ body {
     background-color: black;
     color: white;
 }
+
+.hide {
+    display: none;
+}
+
+.container {
+    height: 80vh;
+}
+
+.container,
+.card,
+.futureWeather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container,
+.card {
+    flex-direction: column;
+}
+
+.container,
+.futureWeather {
+    gap: 1rem;
+}
